@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>zapper-deeplinking</name>
+    <version>1.0.2</version>
+    <stability>beta</stability>
+    <license>MITL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allow customers to pay with Zapper on your website.</summary>
+    <description>Allow customers to pay with Zapper on your website.</description>
+    <notes>N/A</notes>
+    <authors><author><name>Zapper</name><user>Zapper</user><email>ecommercesupport@zapper.com</email></author></authors>
+    <date>2016-09-08</date>
+    <time>10:29:37</time>
+    <contents><target name="magecommunity"><dir name="Zapper"><dir name="DeepLinking"><dir name="Block"><dir name="Form"><file name="DeepLinking.php" hash="da6b5a26fce15c083e0f695f5d2bea7a"/></dir><dir name="Info"><file name="DeepLinking.php" hash="4ef983a2c691dace0a6cd7556acfbeb8"/></dir></dir><dir name="Helper"><file name="Data.php" hash="992d0c6f9fad5a36c786fe01b2c1f9a5"/></dir><dir name="Model"><file name="DeepLinking.php" hash="beedeb534c3e047b22bd53ccd31f9cf7"/></dir><dir name="controllers"><file name="ProcessingController.php" hash="8b2fd0c7a03d292f23ae976eefe001b6"/></dir><dir name="etc"><file name="config.xml" hash="91ca271e32c8bc5b16a51947bdf82361"/><file name="system.xml" hash="3285fbd8fb2a23dd1f9f2f94d55d4f92"/></dir><file name=".DS_Store" hash="4ec82e219c55ad9ad1a9b3f2c3763bf6"/></dir><file name=".DS_Store" hash="28727f5da84b0199c326d80fceb355bf"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="zapper.xml" hash="cdbb2eb5c2cb40b3e505b3a133944944"/></dir><dir name="template"><dir name="zapper_deeplinking"><dir name="form"><file name="deeplinking.phtml" hash="176d53097be7cd5863fe9155389c8223"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Zapper_DeepLinking.xml" hash="a9b0cafa2493148bd927f3081d0eec56"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>4.0.0</min><max>7.0.0</max></php></required></dependencies>
+</package>

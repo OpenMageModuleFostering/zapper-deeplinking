@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <block type="core/text" name="zapper_script">
+                <action method="setText"><text><![CDATA[<script src="//qa-code.zapzapadmin.com/zapper.js"></script>]]></text></action>
+            </block>
+        </reference>
+        <reference name="head">
+            <action method="addJs">
+                <script>zapper_deeplinking/zapper-magento.js</script>
+            </action>
+        </reference>
+    </default>
+</layout>

@@ -1,0 +1,17 @@
+<div class="form-list" id="payment_form_<?php echo $this->getMethodCode() ?>" style="display:none;">
+  <script type="text/javascript"></script>
+  <div id="zapper_magento_wrapper">
+    <?php echo $this->__('You will be redirected to the Zapper App when you place the order.') ?>
+  </div>
+  <?php
+    $lastOrderId = Mage::getModel("sales/order")->getCollection()->getLastItem()->getIncrementId();
+    // echo var_dump(Mage::getModel('sales/order')->loadByIncrementId($lastOrderId)->getId());
+  ?>
+  <input type="hidden" id="zapperMerchantId" value="<?php echo Mage::getStoreConfig('payment/zapperdeeplinking/merchant_id') ?>" />
+  <input type="hidden" id="zapperSiteId" value="<?php echo Mage::getStoreConfig('payment/zapperdeeplinking/site_id') ?>" />
+  <input type="hidden" id="zapperAmount" value="<?php echo Mage::getSingleton('checkout/cart')->getQuote()->getGrandTotal() ?>" />
+  <input type="hidden" id="baseUrl" value="<?php echo Mage::getBaseUrl() ?>" />
+</div>
+<div>
+    <?php //echo $this->getMethod()->getConfigData('message');?>
+</div>
