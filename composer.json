@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/zapper-deeplinking",
+    "name": "OpenMageModuleFostering\/zapper-deeplinking",
     "type": "magento-module",
     "license": "MITL",
     "homepage": "",
     "description": "Allow customers to pay with Zapper on your website.",
     "authors": [
-    {
-        "name": "Zapper",
-        "email": "ecommercesupport@zapper.com"
-    }
-],
+        {
+            "name": "Zapper",
+            "email": "ecommercesupport@zapper.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
